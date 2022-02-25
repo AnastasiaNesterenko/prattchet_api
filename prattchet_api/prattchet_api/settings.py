@@ -23,9 +23,12 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'plrd!t_bx^f&c^3^(w%wv+u8eyfqz7)gq=#m8+)f_h=ubcw8f('
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'www.greatgodom.pythonanywhere.com',
+    'greatgodom.pythonanywhere.com',
+]
 
 
 # Application definition
