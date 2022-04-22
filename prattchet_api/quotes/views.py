@@ -1,3 +1,7 @@
+"""
+Приложение quotes.
+Реализованы функции создания/редактирования/удаления цитат админом.
+"""
 from rest_framework import viewsets
 
 from .models import Quote

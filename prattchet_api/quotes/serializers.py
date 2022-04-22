@@ -1,3 +1,7 @@
+"""
+Приложение quotes.
+Сериализаторы для модели цитат из произведений Терри Пратчетта.
+"""
 from rest_framework import serializers
 
 from .models import Quote

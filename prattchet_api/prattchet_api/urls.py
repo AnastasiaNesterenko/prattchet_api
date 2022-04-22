@@ -1,3 +1,7 @@
+"""
+Приложение api.
+Прописаны url-адреса для страниц админки.
+"""
 from django.contrib import admin
 from django.urls import include, path
 
